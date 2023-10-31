@@ -1,4 +1,4 @@
-package segundaParte;
+package unidad_5.segundaParte;
 import java.util.Scanner;
 public class ejercicio_525 {
     public static void main(String[] args){
@@ -10,7 +10,7 @@ El total de números introducidos, excluido el 0. */
         int numer = 0;
         int mayor = 0;
         int contadorFallido = 0;
-        System.out.println("Introduce un numero inicial:");
+        System.out.print("Introduce un numero inicial(para salir 0 dos veces): ");
         numer = teclado.nextInt();
         do {
             System.out.println("Escribe un numero mayor: ");
@@ -24,9 +24,10 @@ El total de números introducidos, excluido el 0. */
                 contador+=1;
             }
 
-        contador+=1;
-        }while(numer != 0 ||mayor != 0);
+        contador=contador+1;
+        }while(numer != 0 && mayor != 0);
         contadorFallido = contadorFallido-1;
+        contador = contador-1;
         System.out.println("Total de numeros introducidos: "+contador);
         System.out.println("Total de fallos: "+contadorFallido);
         teclado.close();

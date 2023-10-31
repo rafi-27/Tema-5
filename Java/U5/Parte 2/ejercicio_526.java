@@ -1,4 +1,4 @@
-package segundaParte;
+package unidad_5.segundaParte;
 
 public class ejercicio_526 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package segundaParte;
+package unidad_5.segundaParte;
 import java.util.Scanner;
 public class ejercicio_524 {
     public static void main(String[] args){

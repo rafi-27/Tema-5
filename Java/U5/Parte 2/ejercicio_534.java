@@ -1,4 +1,4 @@
-package segundaParte;
+package unidad_5.segundaParte;
 import java.util.Scanner;
 public class ejercicio_534 {
     public static void main(String[] args) {
@@ -9,9 +9,10 @@ public class ejercicio_534 {
 
         while (numero > 0) {
             int digito = numero % 10;
-            numero%=10;
+            numero/=10;
             System.out.println(digito+" ");            
         }
+        System.out.println("Esta escrito del menos significativo al mas significativo");
 System.out.println();
 teclado.close();
     }
