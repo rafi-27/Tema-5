@@ -13,26 +13,29 @@ public class ejercicio_525 {
          * El total de números introducidos, excluido el 0.
          */
         int contador = 0;
-        int numer = 0;
-        int mayor = 0;
+        int numeroInicio = 0;
+        int numeroDos = 0;
         int contadorFallido = 0;
 
         System.out.print("Introduce el numero inicial: ");
-        numer = teclado.nextInt();
-        while (numer != 0) {
-            System.out.print("Introduce un numero: ");
-            mayor = teclado.nextInt();
+        numeroInicio = teclado.nextInt();
 
-            if (numer < mayor && numer != 0);
-            {
+        do{
+        System.out.print("Introduce un numero: ");
+        numeroDos = teclado.nextInt();
+        if (numeroDos > numeroInicio){
+            numeroInicio = numeroDos;
+        }else{
             System.out.println("Error");
-            contadorFallido = contadorFallido + 1;
-            }
-
-            mayor = numer;
-            contador = contador + 1;
-
+            contadorFallido++;
+            numeroInicio = numeroDos;
         }
+            contador++;
+
+        }while (numeroInicio != 0 && numeroDos != 0);
+        contadorFallido-=1;
+        System.out.println("Total de numeros introducidos: "+contador);
+        System.out.println("Total de fallos: "+contadorFallido);
         teclado.close();
     }
 }

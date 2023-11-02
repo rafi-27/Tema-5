@@ -7,6 +7,7 @@ números naturales. */
 int suma = 0;
 for (int i = 1; i <= 5; i++) {
     double result = Math.pow(i, 2);
+    System.out.println(i);
     suma+=result;
 }
 System.out.println(suma);

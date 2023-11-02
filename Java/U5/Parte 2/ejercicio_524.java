@@ -19,5 +19,4 @@ introducimos por teclado. */
         System.out.println("Cantidad de multiplos de 3: "+multiplo);
         teclado.close();
     }
-    
 }

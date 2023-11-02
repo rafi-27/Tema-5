@@ -13,6 +13,9 @@ sea positivo se deberá escribir un único asterisco. */
         for (int i = 1; i <= max ; i++) {
             System.out.print("*"+" ");            
         }
+        if(max < 0){
+            System.out.println("*");
+        }
         teclado.close();
     }
 }

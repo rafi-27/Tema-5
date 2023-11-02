@@ -10,13 +10,12 @@ public class ejercicio_520 {
         int numerInicio = 0;
         int numerSegundo = 1;
 
-        while(numerInicio<numer){
+        for (int i = 0; i < numer; i++) {
             System.out.print(numerInicio+",");
             int suma = numerInicio+numerSegundo;
             numerInicio = numerSegundo;
             numerSegundo = suma;
         }
     teclado.close();    
-
     }
 }

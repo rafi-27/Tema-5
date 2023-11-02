@@ -18,9 +18,9 @@ public class ejercicio_522 {
                 System.out.println(i);
                 contador++;
             }
-            if (contador >= 3){
-                break;
-            }
+            //if (contador >= 3){
+                //break;
+            //}
         }       
         teclado.close();
     }         
