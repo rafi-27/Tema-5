@@ -10,14 +10,13 @@ public class ejercicio_519 {
             System.out.print("Introduce un numero postivo: ");
             num = teclado.nextInt();
         }
-        int contadorDivisores = 1;
-        while(contadorDivisores <= num){          
+        int contadorDivisores = 2;
+        while(contadorDivisores < num){          
             if (num%contadorDivisores==0)
             {
             System.out.println(contadorDivisores);
             }
             contadorDivisores = contadorDivisores + 1;
         }
-    teclado.close();
     }
 }
