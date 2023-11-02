@@ -29,7 +29,4 @@ public class ejercicio_516{
     
               teclado.close();
             }
-
     }
-
-
