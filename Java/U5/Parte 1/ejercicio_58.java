@@ -9,9 +9,9 @@ indicando cuántos son positivos y cuantos negativos.  */
         int contnega = 0;
         boolean negativ = false;
         
-        System.out.println("Introduce numeros (0 es para salir.)");
-        int numer = teclado.nextInt();
-        
+        //System.out.println("Introduce numeros (0 es para salir.)");
+        //int numer = teclado.nextInt();
+        int numer = 1;
         while(numer != 0){        
         numer = teclado.nextInt();
              
