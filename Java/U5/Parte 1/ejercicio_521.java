@@ -10,11 +10,11 @@ public class ejercicio_521 {
         int contador = 0;
 
         for(int i=1;i <= prim;i++){
-             if (prim % 1 == 0 && prim%prim==0)
+             if (prim % i== 0)
              contador++;
         }
 
-        if (contador>1){
+        if (contador>2){
             System.out.println("El numero "+prim+" no es primo.");
         }else{
             System.out.println("El numero "+prim+" es primo.");
