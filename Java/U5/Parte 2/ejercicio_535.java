@@ -19,7 +19,7 @@ número mayor que 1000 el programa finalizará después de introducidos 15 núme
             contador++;
         }while (numero < 1000 || contador >= 15);
         
-       System.out.println("Resultao de la suma es "+suma);
+       System.out.println("Resultado de la suma es "+suma);
        System.out.println("El contador a llegado a: "+contador);
        teclado.close();
     }
