@@ -6,13 +6,15 @@ public class ejercicio_534 {
 
         System.out.print("Escribe un numero entero: ");
         int numero = teclado.nextInt();
-
+        int cont = 0;
+        int valor = numero;
         while (numero > 0) {
-            int digito = numero % 10;
+            //int digito = numero % 10;
             numero/=10;
-            System.out.println(digito+" ");            
+            cont++;
+            //System.out.println(digito+" ");            
         }
-        System.out.println("Esta escrito del menos significativo al mas significativo");
+        System.out.println("El numero "+valor+" tiene "+cont+" digitos.");
 System.out.println();
 teclado.close();
     }

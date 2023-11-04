@@ -10,7 +10,7 @@ public class ejercicio_517 {
         int propuesta=0;
         Scanner lector=new Scanner(System.in);
             
-        while (numero!=3) {
+        while (numero!= 3) {
             propuesta=(nMinimo+nMaximo)/2;
             System.out.println(propuesta);
             numero=lector.nextInt();
