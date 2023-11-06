@@ -19,6 +19,5 @@ public class ejercicio_532 {
 
         System.out.println("Se ha lanzado un total de " + contador + " veces para salir el 5.");
         teclado.close();
-        
     }
 }
